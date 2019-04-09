@@ -4,7 +4,7 @@ from django.http import HttpResponse
 def index(request):
      return  render(request, 'userside/index.html')
 def detail(request):
-     return render(request, 'userside/detail.html')
+     return render(request, 'userside/details.html')
 def contact(request):
      return render(request,'userside/contact.html')
 def service(request):
