@@ -32,3 +32,7 @@ def adlogout(request):
 @login_required
 def dashboard(request):
     return render(request,'dashboard/page/index.html')
+
+@login_required
+def profile(request):
+    return render(request,'dashboard/page/profile.html')

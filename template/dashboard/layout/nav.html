@@ -23,7 +23,7 @@
             <div class="clear">
               <a href="#"><span class="text-white font-bold">@Mike Mcalidek</a></span>
               <small class="block">Art Director</small>
-              <a href="#" class="btn btn-xs btn-success m-t-xs">Upgrade</a>
+              {% static 'dashboard/images/avatar.jpg' %}
             </div>
           </div>
           <div class="row m-l-none m-r-none m-b-n-xs text-center">
@@ -49,9 +49,7 @@
         </section>
       </li>
       <li>
-        <div class="m-t m-l">
-          <a href="price.html" class="dropdown-toggle btn btn-xs btn-primary" title="Upgrade"><i class="fa fa-long-arrow-up"></i></a>
-        </div>
+       
       </li>
     </ul>      
     <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user">
@@ -119,7 +117,7 @@
             <a href="#">Settings</a>
           </li>
           <li>
-            <a href="profile.html">Profile</a>
+            <a href="{% url 'profile' %}">Profile</a>
           </li>
           <li>
             <a href="#">

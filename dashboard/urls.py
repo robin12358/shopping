@@ -5,4 +5,5 @@ urlpatterns = [
     path('login',views.adlogin,name="adlogin"),
     path('logout',views.adlogout,name="adlogout"),
     path('home', views.index,name="adhome"),
+    path('profile',views.profile,name="profile"),
 ]
